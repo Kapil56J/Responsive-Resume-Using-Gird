@@ -20,15 +20,16 @@ body{
 }
 
 .main-content .left-section{
-    width: 300px;
+    /* width: 300px; */
     background: #003147;
     grid-column: span 1;
 }
 
 .main-content .right-section{
-    width: 700px;
+    /* width: 700px; */
     background: #fff;
     grid-column: span 1 / span 2;
+    /* grid-template-columns: 300px, 100px; */
 }
 
 .left-content{
@@ -110,6 +111,20 @@ body{
     height: 4px;
 }
 
+.activities{
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.text-color{
+    color: #fff;
+}
+
+/* Section 2 */
+
+
 .right-main-content{
     padding: 2rem 3rem 2rem 3rem;
 }
@@ -122,63 +137,22 @@ body{
     letter-spacing: 1px;
 }
 
- .education-sect h2{
-    padding-top: 25px;
-}
-
-.education-content{
-    padding-top: auto;
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
-
  .education-content .degree-name{
     min-width: 50px;
-} 
+}   
 
 .degree-name p{
     padding-top: 10px;
 }
 
-.education-content .degree-name h3{
+ .education-content .degree-name h3{
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.education-content .college-name{
-    padding-left: 100px;
-    margin-bottom: 10px;
-}
 
-.college-name .year{
-    padding-top: 10px;
-}
-
-/* .education-content .college-name1{
-    padding-left: 100px;
-    margin-bottom: 10px;
-} */
-
-.college-name1 .year{
-    padding-top: 10px;
-}
 /* -------------------------------------------------- */
 
-.experience-section h2{
-    padding-top: 25px;
-}
-
-.experience-content{
-    padding-top: auto;
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
-
- /* .experience-content .post-name{
-    min-width: 30px;
-}  */
 
 .post-name p{
     padding-top: 10px;
@@ -189,24 +163,9 @@ body{
     font-weight: 700;
 }
 
-.experience-content .company-name{
-    padding-left: 180px;
-    margin-bottom: 10px;
-}
-
-.company-name .year{
-    padding-top: 10px;
-}
 
 /* ------------------------------------------------- */
 
-
-.project-content{
-    padding-top: auto;
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
 
 .project-name p{
     padding-top: 10px;
@@ -217,23 +176,10 @@ body{
     font-weight: 700;
 }
 
-.project-content .lang-name{
-    padding-left: 80px;
-    margin-bottom: 10px;
-}
-
-.lang-name .year{
-    padding-top: 10px;
-}
-
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 673px){
+@media screen and (max-width:673px){
     .main-content{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 }
-
-
-
-
